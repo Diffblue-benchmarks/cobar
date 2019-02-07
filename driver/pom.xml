@@ -24,6 +24,13 @@
   <name>${artifactId}</name>
   <description>Cobar Driver Project</description>
 
+  <parent>
+    <groupId>com.alibaba.cobar</groupId>
+    <artifactId>cobar-parent</artifactId>
+    <version>1.0.0</version>
+    <relativePath>../parent/pom.xml</relativePath>
+  </parent>
+
   <properties>
     <project.encoding>UTF-8</project.encoding>
   </properties>

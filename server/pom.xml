@@ -25,6 +25,13 @@
   <description>The project of cobar-server</description>
   <url>http://code.alibabatech.com/wiki/display/Cobar</url>
 
+  <parent>
+    <groupId>com.alibaba.cobar</groupId>
+    <artifactId>cobar-parent</artifactId>
+    <version>1.0.0</version>
+    <relativePath>../parent/pom.xml</relativePath>
+  </parent>
+
   <properties>
     <app.encoding>UTF-8</app.encoding>
     <app.version>1.2.8-SNAPSHOT</app.version>

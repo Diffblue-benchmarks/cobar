@@ -25,6 +25,13 @@
   <description>The project of cobar-manager</description>
   <url>http://code.alibabatech.com/wiki/display/Cobar</url>
 
+  <parent>
+    <groupId>com.alibaba.cobar</groupId>
+    <artifactId>cobar-parent</artifactId>
+    <version>1.0.0</version>
+    <relativePath>../parent/pom.xml</relativePath>
+  </parent>
+
   <properties>
     <project.version>1.0.5</project.version>
     <project.build.sourceEncoding>GBK</project.build.sourceEncoding>
