@@ -19,8 +19,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.alibaba.cobar</groupId>
   <artifactId>cobar-manager</artifactId>
-  <version>${project.version}</version>
-  <name>${artifactId}</name>
+  <version>1.0.5</version>
+  <name>${project.artifactId}</name>
   <packaging>war</packaging>
   <description>The project of cobar-manager</description>
   <url>http://code.alibabatech.com/wiki/display/Cobar</url>
@@ -181,6 +181,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
         <configuration>
           <source>1.6</source>
           <target>1.6</target>
@@ -190,6 +191,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
+        <version>3.1.1</version>
         <configuration>
           <excludes>
             <exclude>**/.svn/**</exclude>
@@ -199,6 +201,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-eclipse-plugin</artifactId>
+        <version>2.10</version>
         <configuration>
           <sourceExcludes>
             <sourceExclude>**/.svn/**</sourceExclude>
