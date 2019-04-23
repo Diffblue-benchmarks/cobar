@@ -1,0 +1,1491 @@
+[
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.CobarServer\\.startup\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "com.alibaba.cobar.config.util.ConfigException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.ConfigInitializer\\.checkConfig\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.NIOAcceptor\\.\\<init\\>\\:\\(Ljava\\/lang\\/String\\;ILcom\\/alibaba\\/cobar\\/net\\/factory\\/FrontendConnectionFactory\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.NIOConnector\\.\\<init\\>\\:\\(Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.NIOConnection\\.register\\:\\(Ljava\\/nio\\/channels\\/Selector\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.NIOConnection\\.read\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.NIOConnection\\.writeByQueue\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.NIOConnection\\.writeByEvent\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.NIOReactor\\$R\\.\\<init\\>\\:\\(Lcom\\/alibaba\\/cobar\\/net\\/NIOReactor\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.NIOReactor\\$R\\.\\<init\\>\\:\\(Lcom\\/alibaba\\/cobar\\/net\\/NIOReactor\\;Lcom\\/alibaba\\/cobar\\/net\\/NIOReactor\\$1\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.AbstractConnection\\.register\\:\\(Ljava\\/nio\\/channels\\/Selector\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.AbstractConnection\\.read\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.AbstractConnection\\.writeByQueue\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.AbstractConnection\\.writeByEvent\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.AbstractConnection\\.write0\\:\\(\\)Z"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.NIOReactor\\.\\<init\\>\\:\\(Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.NIOProcessor\\.\\<init\\>\\:\\(Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.NIOProcessor\\.\\<init\\>\\:\\(Ljava\\/lang\\/String\\;III\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.NIOProcessor\\.\\<init\\>\\:\\(Ljava\\/lang\\/String\\;IIIII\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.BackendConnection\\.connect\\:\\(Ljava\\/nio\\/channels\\/Selector\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.BackendConnection\\.finishConnect\\:\\(\\)Z"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.FrontendConnection\\.register\\:\\(Ljava\\/nio\\/channels\\/Selector\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.mysql\\.CommandPacket\\.write\\:\\(Ljava\\/io\\/OutputStream\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.UnsupportedEncodingException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.mysql\\.ExecutePacket\\.read\\:\\(\\[BLjava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.mysql\\.Reply323Packet\\.write\\:\\(Ljava\\/io\\/OutputStream\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.mysql\\.BinaryPacket\\.read\\:\\(Ljava\\/io\\/InputStream\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.mysql\\.AuthPacket\\.write\\:\\(Ljava\\/io\\/OutputStream\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.factory\\.BackendConnectionFactory\\.openSocketChannel\\:\\(\\)Ljava\\/nio\\/channels\\/SocketChannel\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.factory\\.FrontendConnectionFactory\\.make\\:\\(Ljava\\/nio\\/channels\\/SocketChannel\\;\\)Lcom\\/alibaba\\/cobar\\/net\\/FrontendConnection\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.net\\.buffer\\.BufferQueue\\.put\\:\\(Ljava\\/nio\\/ByteBuffer\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.route\\.ServerRouter\\$HintRouter\\.routeFromHint\\:\\(Ljava\\/lang\\/Object\\;Lcom\\/alibaba\\/cobar\\/config\\/model\\/SchemaConfig\\;Lcom\\/alibaba\\/cobar\\/route\\/RouteResultset\\;ILjava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLNonTransientException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.route\\.ServerRouter\\.route\\:\\(Lcom\\/alibaba\\/cobar\\/config\\/model\\/SchemaConfig\\;Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;Ljava\\/lang\\/Object\\;\\)Lcom\\/alibaba\\/cobar\\/route\\/RouteResultset\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLNonTransientException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.route\\.ServerRouter\\.validateAST\\:\\(Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/SQLStatement\\;Lcom\\/alibaba\\/cobar\\/config\\/model\\/TableConfig\\;Lcom\\/alibaba\\/cobar\\/config\\/model\\/rule\\/RuleConfig\\;Lcom\\/alibaba\\/cobar\\/route\\/visitor\\/PartitionKeyVisitor\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.route\\.hint\\.HintParser\\.process\\:\\(Lcom\\/alibaba\\/cobar\\/route\\/hint\\/CobarHint\\;Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.route\\.hint\\.HintParser\\.parsePrimary\\:\\(Lcom\\/alibaba\\/cobar\\/route\\/hint\\/CobarHint\\;Ljava\\/lang\\/String\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.route\\.hint\\.SimpleHintParser\\.process\\:\\(Lcom\\/alibaba\\/cobar\\/route\\/hint\\/CobarHint\\;Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.route\\.hint\\.DataNodeHintParser\\.process\\:\\(Lcom\\/alibaba\\/cobar\\/route\\/hint\\/CobarHint\\;Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.route\\.hint\\.CobarHint\\.parserCobarHint\\:\\(Ljava\\/lang\\/String\\;I\\)Lcom\\/alibaba\\/cobar\\/route\\/hint\\/CobarHint\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.route\\.hint\\.CobarHint\\.parse\\:\\(Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.route\\.hint\\.PartitionOperandHintParser\\.process\\:\\(Lcom\\/alibaba\\/cobar\\/route\\/hint\\/CobarHint\\;Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.route\\.hint\\.PartitionOperandHintParser\\.parseArray\\:\\(Lcom\\/alibaba\\/cobar\\/route\\/hint\\/CobarHint\\;Ljava\\/lang\\/String\\;I\\)\\[Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.route\\.hint\\.PartitionOperandHintParser\\.parseArrayArray\\:\\(Lcom\\/alibaba\\/cobar\\/route\\/hint\\/CobarHint\\;Ljava\\/lang\\/String\\;I\\)\\[\\[Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.route\\.config\\.RouteRuleInitializer\\.initRouteRule\\:\\(Lcom\\/alibaba\\/cobar\\/config\\/loader\\/SchemaLoader\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.CloneNotSupportedException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.util\\.SmallSet\\.clone\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.IllegalAccessException", 
+   "java.lang.reflect.InvocationTargetException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.config\\.util\\.ParameterMapping\\.mapping\\:\\(Ljava\\/lang\\/Object\\;Ljava\\/util\\/Map\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.IllegalAccessException", 
+   "java.lang.reflect.InvocationTargetException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.config\\.util\\.ParameterMapping\\.createBean\\:\\(Lcom\\/alibaba\\/cobar\\/config\\/util\\/BeanConfig\\;\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "org.xml.sax.SAXException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.config\\.util\\.ConfigUtil\\$2\\.error\\:\\(Lorg\\/xml\\/sax\\/SAXParseException\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "org.xml.sax.SAXException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.config\\.util\\.ConfigUtil\\$2\\.fatalError\\:\\(Lorg\\/xml\\/sax\\/SAXParseException\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "javax.xml.parsers.ParserConfigurationException", 
+   "org.xml.sax.SAXException", 
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.config\\.util\\.ConfigUtil\\.getDocument\\:\\(Ljava\\/io\\/InputStream\\;Ljava\\/io\\/InputStream\\;\\)Lorg\\/w3c\\/dom\\/Document\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.IllegalAccessException", 
+   "java.lang.reflect.InvocationTargetException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.config\\.util\\.BeanConfig\\.create\\:\\(Z\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.config\\.loader\\.xml\\.XMLRuleLoader\\.loadTableRules\\:\\(Lorg\\/w3c\\/dom\\/Element\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.config\\.loader\\.xml\\.XMLRuleLoader\\.loadRule\\:\\(Lorg\\/w3c\\/dom\\/Element\\;\\)Lcom\\/alibaba\\/cobar\\/config\\/model\\/rule\\/RuleConfig\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.ClassNotFoundException", 
+   "java.lang.InstantiationException", 
+   "java.lang.IllegalAccessException", 
+   "java.lang.reflect.InvocationTargetException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.config\\.loader\\.xml\\.XMLRuleLoader\\.loadFunctions\\:\\(Lorg\\/w3c\\/dom\\/Element\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.ClassNotFoundException", 
+   "java.lang.InstantiationException", 
+   "java.lang.IllegalAccessException", 
+   "java.lang.reflect.InvocationTargetException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.config\\.loader\\.xml\\.XMLRuleLoader\\.createFunction\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/config\\/model\\/rule\\/RuleAlgorithm\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.IllegalAccessException", 
+   "java.lang.reflect.InvocationTargetException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.config\\.loader\\.xml\\.XMLServerLoader\\.loadSystem\\:\\(Lorg\\/w3c\\/dom\\/Element\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.SQLParserDelegate\\.parse\\:\\(Ljava\\/lang\\/String\\;Lcom\\/alibaba\\/cobar\\/parser\\/recognizer\\/mysql\\/lexer\\/MySQLLexer\\;Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/SQLStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.SQLParserDelegate\\.parse\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/SQLStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.SQLParserDelegate\\.parse\\:\\(Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/SQLStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.lexer\\.MySQLLexer\\.\\<init\\>\\:\\(\\[C\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.lexer\\.MySQLLexer\\.\\<init\\>\\:\\(Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.lexer\\.MySQLLexer\\.nextTokenInternal\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/recognizer\\/mysql\\/MySQLToken\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.lexer\\.MySQLLexer\\.nextToken\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/recognizer\\/mysql\\/MySQLToken\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.lexer\\.MySQLLexer\\.scanUserVariable\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.lexer\\.MySQLLexer\\.scanSystemVariable\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.lexer\\.MySQLLexer\\.scanString\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.lexer\\.MySQLLexer\\.scanHexaDecimal\\:\\(Z\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.lexer\\.MySQLLexer\\.scanBitField\\:\\(Z\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.lexer\\.MySQLLexer\\.scanNumber\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.lexer\\.MySQLLexer\\.scanIdentifierFromNumber\\:\\(II\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.lexer\\.MySQLLexer\\.scanIdentifier\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.lexer\\.MySQLLexer\\.scanPlaceHolder\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.lexer\\.MySQLLexer\\.scanIdentifierWithAccent\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.lexer\\.MySQLLexer\\.err\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/sql\\/SQLSyntaxErrorException\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLDeleteParser\\.delete\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dml\\/DMLDeleteStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLCallParser\\.call\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dml\\/DMLCallStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLParser\\.identifier\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/primary\\/Identifier\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLParser\\.systemVariale\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/primary\\/SysVarPrimary\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLParser\\.limit\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/Limit\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLParser\\.equalsIdentifier\\:\\(\\[Ljava\\/lang\\/String\\;\\)I"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLParser\\.matchIdentifier\\:\\(\\[Ljava\\/lang\\/String\\;\\)I"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLParser\\.match\\:\\(\\[Lcom\\/alibaba\\/cobar\\/parser\\/recognizer\\/mysql\\/MySQLToken\\;\\)I"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLParser\\.err\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/sql\\/SQLSyntaxErrorException\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLUpdateParser\\.update\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dml\\/DMLUpdateStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLInsertParser\\.insert\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dml\\/DMLInsertStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLInsertParser\\.onDuplicateUpdate\\:\\(\\)Ljava\\/util\\/List\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.expression\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.logicalOrExpression\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.logicalXORExpression\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.logicalAndExpression\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.logicalNotExpression\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.comparisionExpression\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.rightOprandOfIn\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.anyAllExpression\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.bitOrExpression\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.bitAndExpression\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.bitShiftExpression\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.arithmeticTermOperatorExpression\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.arithmeticFactorOperatorExpression\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.bitXORExpression\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.unaryOpExpression\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.collateExpression\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.userExpression\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.primaryExpression\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.timestampdiff\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/primary\\/function\\/datetime\\/Timestampdiff\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.timestampadd\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/primary\\/function\\/datetime\\/Timestampadd\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.extract\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/primary\\/function\\/datetime\\/Extract\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.functionConvert\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/primary\\/function\\/cast\\/Convert\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.functionChar\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/primary\\/function\\/string\\/Char\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.startedFromIdentifier\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.type4specialFunc\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/util\\/Pair\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.ordinaryFunction\\:\\(Ljava\\/lang\\/String\\;Ljava\\/lang\\/String\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/primary\\/function\\/FunctionExpression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.matchExpression\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.intervalExpression\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.intervalPrimaryUnit\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/primary\\/literal\\/IntervalPrimary\\$Unit\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.caseWhenExpression\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.expressionList\\:\\(Ljava\\/util\\/List\\;\\)Ljava\\/util\\/List\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLExprParser\\.subQuery\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/misc\\/QueryExpression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDDLParser\\.truncate\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/ddl\\/DDLTruncateStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDDLParser\\.ddlStmt\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/ddl\\/DDLStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDDLParser\\.dropTable\\:\\(Z\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/ddl\\/DDLDropTableStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDDLParser\\.alterTable\\:\\(Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/ddl\\/DDLAlterTableStatement\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/ddl\\/DDLAlterTableStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDDLParser\\.createTable\\:\\(Z\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/ddl\\/DDLCreateTableStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDDLParser\\.createTableDefs\\:\\(Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/ddl\\/DDLCreateTableStatement\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDDLParser\\.indexDefinition\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/ddl\\/index\\/IndexDefinition\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDDLParser\\.indexOptions\\:\\(\\)Ljava\\/util\\/List\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDDLParser\\.indexColumnName\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/ddl\\/index\\/IndexColumnName\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDDLParser\\.dataType\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/ddl\\/datatype\\/DataType\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDDLParser\\.columnDefinition\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/ddl\\/ColumnDefinition\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDDLParser\\.tableOptions\\:\\(Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/ddl\\/TableOptions\\;\\)Z"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDDLParser\\.tableOption\\:\\(Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/ddl\\/TableOptions\\;\\)Z"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLSelectParser\\.selectOption\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dml\\/DMLSelectStatement\\$SelectOption\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLSelectParser\\.selectExprList\\:\\(\\)Ljava\\/util\\/List\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLSelectParser\\.select\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dml\\/DMLSelectStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLSelectParser\\.selectUnion\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dml\\/DMLQueryStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDALParser\\.desc\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/ddl\\/DescTableStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDALParser\\.show\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dal\\/DALShowStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDALParser\\.showIndex\\:\\(Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dal\\/ShowIndex\\$Type\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dal\\/ShowIndex\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDALParser\\.showProfile\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dal\\/ShowProfile\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDALParser\\.showPrifileType\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dal\\/ShowProfile\\$Type\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDALParser\\.showColumns\\:\\(Z\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dal\\/ShowColumns\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDALParser\\.like\\:\\(\\)Ljava\\/lang\\/String\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDALParser\\.where\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDALParser\\.getStringValue\\:\\(\\)Ljava\\/lang\\/String\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDALParser\\.set\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/SQLStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDALParser\\.setMTSSetTransactionStatement\\:\\(Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/VariableScope\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/mts\\/MTSSetTransactionStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDALParser\\.varAssign\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLMTSParser\\.savepoint\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/mts\\/MTSSavepointStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLMTSParser\\.release\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/mts\\/MTSReleaseStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLMTSParser\\.rollback\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/mts\\/MTSRollbackStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.groupBy\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/GroupBy\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.orderBy\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/OrderBy\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.buildIdList\\:\\(Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/primary\\/Identifier\\;\\)Ljava\\/util\\/List\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.idList\\:\\(\\)Ljava\\/util\\/List\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.idNameList\\:\\(\\)Ljava\\/util\\/List\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.tableRefs\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/tableref\\/TableReferences\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.buildTableReferences\\:\\(Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/tableref\\/TableReference\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/tableref\\/TableReferences\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.tableReference\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/tableref\\/TableReference\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.buildTableReference\\:\\(Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/tableref\\/TableReference\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/tableref\\/TableReference\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.tableFactor\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/tableref\\/TableReference\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.as\\:\\(\\)Ljava\\/lang\\/String\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.trsOrQuery\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.hintList\\:\\(\\)Ljava\\/util\\/List\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.hint\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/tableref\\/IndexHint\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.buildUnionSelect\\:\\(Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dml\\/DMLSelectStatement\\;\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dml\\/DMLQueryStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.selectPrimary\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dml\\/DMLSelectStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLParser\\.select\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dml\\/DMLSelectStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLInsertReplaceParser\\.rowList\\:\\(\\)Ljava\\/util\\/List\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLInsertReplaceParser\\.rowValue\\:\\(\\)Ljava\\/util\\/List\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.recognizer\\.mysql\\.syntax\\.MySQLDMLReplaceParser\\.replace\\:\\(\\)Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/stmt\\/dml\\/DMLReplaceStatement\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.ast\\.stmt\\.dml\\.DMLDeleteStatement\\.\\<init\\>\\:\\(ZZZLcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/primary\\/Identifier\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.ast\\.stmt\\.dml\\.DMLDeleteStatement\\.\\<init\\>\\:\\(ZZZLcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/primary\\/Identifier\\;Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.ast\\.stmt\\.dml\\.DMLDeleteStatement\\.\\<init\\>\\:\\(ZZZLcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/primary\\/Identifier\\;Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/OrderBy\\;Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/Limit\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.ast\\.stmt\\.dml\\.DMLDeleteStatement\\.\\<init\\>\\:\\(ZZZLjava\\/util\\/List\\;Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/tableref\\/TableReferences\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.ast\\.stmt\\.dml\\.DMLDeleteStatement\\.\\<init\\>\\:\\(ZZZLjava\\/util\\/List\\;Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/fragment\\/tableref\\/TableReferences\\;Lcom\\/alibaba\\/cobar\\/parser\\/ast\\/expression\\/Expression\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.sql.SQLSyntaxErrorException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.parser\\.ast\\.fragment\\.tableref\\.TableReferences\\.\\<init\\>\\:\\(Ljava\\/util\\/List\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.heartbeat\\.MySQLDetectorFactory\\.make\\:\\(Lcom\\/alibaba\\/cobar\\/heartbeat\\/MySQLHeartbeat\\;\\)Lcom\\/alibaba\\/cobar\\/heartbeat\\/MySQLDetector\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.security.NoSuchAlgorithmException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.heartbeat\\.CobarDetector\\.getPass\\:\\(Ljava\\/lang\\/String\\;Lcom\\/alibaba\\/cobar\\/net\\/mysql\\/HandshakePacket\\;\\)\\[B"
+ }, 
+ {
+  "exceptions": [
+   "java.security.NoSuchAlgorithmException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.heartbeat\\.MySQLDetector\\.getPass\\:\\(Ljava\\/lang\\/String\\;Lcom\\/alibaba\\/cobar\\/net\\/mysql\\/HandshakePacket\\;\\)\\[B"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.heartbeat\\.CobarDetectorFactory\\.make\\:\\(Lcom\\/alibaba\\/cobar\\/heartbeat\\/CobarHeartbeat\\;\\)Lcom\\/alibaba\\/cobar\\/heartbeat\\/CobarDetector\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.MySQLDataNode\\.getChannel\\:\\(\\)Lcom\\/alibaba\\/cobar\\/mysql\\/bio\\/Channel\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.MySQLDataNode\\.getChannel\\:\\(I\\)Lcom\\/alibaba\\/cobar\\/mysql\\/bio\\/Channel\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.MySQLDataNode\\.getConnection\\:\\(Lcom\\/alibaba\\/cobar\\/mysql\\/nio\\/handler\\/ResponseHandler\\;Ljava\\/lang\\/Object\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.MySQLDataNode\\.getConnection\\:\\(Lcom\\/alibaba\\/cobar\\/mysql\\/nio\\/handler\\/ResponseHandler\\;Ljava\\/lang\\/Object\\;I\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.UnsupportedEncodingException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.MySQLMessage\\.readString\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/lang\\/String\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.UnsupportedEncodingException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.MySQLMessage\\.readStringWithNull\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/lang\\/String\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.UnsupportedEncodingException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.MySQLMessage\\.readStringWithLength\\:\\(Ljava\\/lang\\/String\\;\\)Ljava\\/lang\\/String\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.security.NoSuchAlgorithmException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.SecurityUtil\\.scramble411\\:\\(\\[B\\[B\\)\\[B"
+ }, 
+ {
+  "exceptions": [
+   "java.io.UnsupportedEncodingException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.BindValueUtil\\.read\\:\\(Lcom\\/alibaba\\/cobar\\/mysql\\/MySQLMessage\\;Lcom\\/alibaba\\/cobar\\/mysql\\/BindValue\\;Ljava\\/lang\\/String\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.MySQLDataSource\\.getChannel\\:\\(\\)Lcom\\/alibaba\\/cobar\\/mysql\\/bio\\/Channel\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.read\\:\\(Ljava\\/io\\/InputStream\\;\\[BII\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.read\\:\\(Ljava\\/io\\/InputStream\\;\\)B"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.readUB2\\:\\(Ljava\\/io\\/InputStream\\;\\)I"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.readUB3\\:\\(Ljava\\/io\\/InputStream\\;\\)I"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.readInt\\:\\(Ljava\\/io\\/InputStream\\;\\)I"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.readFloat\\:\\(Ljava\\/io\\/InputStream\\;\\)F"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.readUB4\\:\\(Ljava\\/io\\/InputStream\\;\\)J"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.readLong\\:\\(Ljava\\/io\\/InputStream\\;\\)J"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.readDouble\\:\\(Ljava\\/io\\/InputStream\\;\\)D"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.readWithLength\\:\\(Ljava\\/io\\/InputStream\\;\\)\\[B"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.write\\:\\(Ljava\\/io\\/OutputStream\\;B\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.writeUB2\\:\\(Ljava\\/io\\/OutputStream\\;I\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.writeUB3\\:\\(Ljava\\/io\\/OutputStream\\;I\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.writeInt\\:\\(Ljava\\/io\\/OutputStream\\;I\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.writeFloat\\:\\(Ljava\\/io\\/OutputStream\\;F\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.writeUB4\\:\\(Ljava\\/io\\/OutputStream\\;J\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.writeLong\\:\\(Ljava\\/io\\/OutputStream\\;J\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.writeDouble\\:\\(Ljava\\/io\\/OutputStream\\;D\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.readLength\\:\\(Ljava\\/io\\/InputStream\\;\\)J"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.writeLength\\:\\(Ljava\\/io\\/OutputStream\\;J\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.writeWithNull\\:\\(Ljava\\/io\\/OutputStream\\;\\[B\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.StreamUtil\\.writeWithLength\\:\\(Ljava\\/io\\/OutputStream\\;\\[B\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.Channel\\.connect\\:\\(J\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\$1\\.call\\:\\(\\)Lcom\\/alibaba\\/cobar\\/mysql\\/bio\\/Channel\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\$1\\.call\\:\\(\\)Ljava\\/lang\\/Object\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\.connect\\:\\(J\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\.execute\\:\\(Lcom\\/alibaba\\/cobar\\/route\\/RouteResultsetNode\\;Lcom\\/alibaba\\/cobar\\/server\\/ServerConnection\\;Z\\)Lcom\\/alibaba\\/cobar\\/net\\/mysql\\/BinaryPacket\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\.receive\\:\\(\\)Lcom\\/alibaba\\/cobar\\/net\\/mysql\\/BinaryPacket\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\.commit\\:\\(\\)Lcom\\/alibaba\\/cobar\\/net\\/mysql\\/BinaryPacket\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\.rollback\\:\\(\\)Lcom\\/alibaba\\/cobar\\/net\\/mysql\\/BinaryPacket\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\.handshake\\:\\(\\)Lcom\\/alibaba\\/cobar\\/mysql\\/bio\\/MySQLChannel\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException", 
+   "java.security.NoSuchAlgorithmException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\.sendAuth411\\:\\(Lcom\\/alibaba\\/cobar\\/net\\/mysql\\/HandshakePacket\\;\\)Lcom\\/alibaba\\/cobar\\/net\\/mysql\\/BinaryPacket\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\.auth323\\:\\(B\\[B\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\.afterSuccess\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\.sendSqlMode\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\.sendCharset\\:\\(I\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\.sendTxIsolation\\:\\(I\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\.sendAutocommit\\:\\(Z\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.MySQLChannel\\.access\\$000\\:\\(Lcom\\/alibaba\\/cobar\\/mysql\\/bio\\/MySQLChannel\\;\\)Lcom\\/alibaba\\/cobar\\/mysql\\/bio\\/MySQLChannel\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.executor\\.MultiNodeExecutor\\.terminate\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.executor\\.MultiNodeExecutor\\.handleRowData\\:\\(Lcom\\/alibaba\\/cobar\\/route\\/RouteResultsetNode\\;Lcom\\/alibaba\\/cobar\\/mysql\\/bio\\/Channel\\;Lcom\\/alibaba\\/cobar\\/server\\/session\\/BlockingSession\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.executor\\.MultiNodeExecutor\\.access\\$400\\:\\(Lcom\\/alibaba\\/cobar\\/mysql\\/bio\\/executor\\/MultiNodeExecutor\\;Lcom\\/alibaba\\/cobar\\/route\\/RouteResultsetNode\\;Lcom\\/alibaba\\/cobar\\/mysql\\/bio\\/Channel\\;Lcom\\/alibaba\\/cobar\\/server\\/session\\/BlockingSession\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.executor\\.RollbackExecutor\\.terminate\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.executor\\.SingleNodeExecutor\\.terminate\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.executor\\.SingleNodeExecutor\\.handleResultSet\\:\\(Lcom\\/alibaba\\/cobar\\/route\\/RouteResultsetNode\\;Lcom\\/alibaba\\/cobar\\/server\\/session\\/BlockingSession\\;Lcom\\/alibaba\\/cobar\\/mysql\\/bio\\/MySQLChannel\\;Lcom\\/alibaba\\/cobar\\/net\\/mysql\\/BinaryPacket\\;I\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.executor\\.SingleNodeExecutor\\.handleRowData\\:\\(Lcom\\/alibaba\\/cobar\\/route\\/RouteResultsetNode\\;Lcom\\/alibaba\\/cobar\\/server\\/session\\/BlockingSession\\;Lcom\\/alibaba\\/cobar\\/mysql\\/bio\\/MySQLChannel\\;Ljava\\/nio\\/ByteBuffer\\;B\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.executor\\.SingleNodeExecutor\\.access\\$400\\:\\(Lcom\\/alibaba\\/cobar\\/mysql\\/bio\\/executor\\/SingleNodeExecutor\\;Lcom\\/alibaba\\/cobar\\/route\\/RouteResultsetNode\\;Lcom\\/alibaba\\/cobar\\/server\\/session\\/BlockingSession\\;Lcom\\/alibaba\\/cobar\\/mysql\\/bio\\/MySQLChannel\\;Ljava\\/nio\\/ByteBuffer\\;B\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.executor\\.DefaultCommitExecutor\\.terminate\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.InterruptedException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.bio\\.executor\\.NodeExecutor\\.terminate\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.UnsupportedEncodingException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.nio\\.MySQLConnection\\.syncAndExcute\\:\\(\\)Z"
+ }, 
+ {
+  "exceptions": [
+   "java.io.UnsupportedEncodingException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.nio\\.MySQLConnection\\.execute\\:\\(Lcom\\/alibaba\\/cobar\\/route\\/RouteResultsetNode\\;Lcom\\/alibaba\\/cobar\\/server\\/ServerConnection\\;Z\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.security.NoSuchAlgorithmException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.nio\\.MySQLConnection\\.passwd\\:\\(Ljava\\/lang\\/String\\;Lcom\\/alibaba\\/cobar\\/net\\/mysql\\/HandshakePacket\\;\\)\\[B"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.nio\\.MySQLConnectionPool\\.getConnection\\:\\(Lcom\\/alibaba\\/cobar\\/mysql\\/nio\\/handler\\/ResponseHandler\\;Ljava\\/lang\\/Object\\;\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.UnsupportedEncodingException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.nio\\.MySQLConnection\\$StatusSync\\.execute\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.io.IOException"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.nio\\.MySQLConnectionFactory\\.make\\:\\(Lcom\\/alibaba\\/cobar\\/mysql\\/nio\\/MySQLConnectionPool\\;Lcom\\/alibaba\\/cobar\\/mysql\\/nio\\/handler\\/ResponseHandler\\;\\)Lcom\\/alibaba\\/cobar\\/mysql\\/nio\\/MySQLConnection\\;"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.nio\\.handler\\.MultiNodeQueryHandler\\.execute\\:\\(\\)V"
+ }, 
+ {
+  "exceptions": [
+   "java.lang.Exception"
+  ], 
+  "methodRegex": "com\\.alibaba\\.cobar\\.mysql\\.nio\\.handler\\.SingleNodeHandler\\.execute\\:\\(\\)V"
+ }
+]

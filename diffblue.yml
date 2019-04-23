@@ -3,9 +3,26 @@
 buildCmd: cd server;	mvn -e -X -Dmaven.test.skip=true compile
 testCmd:	true
 skipVerification: true
+exceptionJson: true
 cbmcArguments:
   java-version: 6
   java-max-vla-length: 100000
+  java-load-class: 
+    - java.io.IOException
+    - javax.xml.parsers.ParserConfigurationException
+    - org.xml.sax.SAXException
+    - java.lang.IllegalAccessException
+    - java.lang.reflect.InvocationTargetException
+    - java.lang.ClassNotFoundException
+    - java.io.UnsupportedEncodingException
+    - java.lang.Exception
+    - java.lang.InstantiationException
+    - java.security.NoSuchAlgorithmException
+    - java.sql.SQLNonTransientException
+    - java.sql.SQLSyntaxErrorException
+    - java.lang.CloneNotSupportedException
+    - com.alibaba.cobar.config.util.ConfigException
+    - java.lang.InterruptedException  
 phases:
 -
 #0 Pretty tests. If timeout then go to #3
