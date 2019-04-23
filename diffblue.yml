@@ -1,5 +1,7 @@
 # This file has been automatically pushed to all dashboard benchmarks (except for Java Demo).
 # All changes made to this file should be propagated to all dashboard benchmarks. Do not change this file individually!  
+buildCmd: cd server;	mvn -e -X -Dmaven.test.skip=true compile
+testCmd:	true
 skipVerification: true
 cbmcArguments:
   java-version: 6
