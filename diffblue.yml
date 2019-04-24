@@ -162,8 +162,8 @@ units:
       file: com/alibaba/cobar/config/util/Visitor.class
       sourceDir: server/src/main/config
       sourceFile: com/alibaba/cobar/config/util/Visitor.java
-   # Target Coverage: Unknown %
-  - target:
+    # Child of ReflectionProvider.class
+    # Child Coverage: Unknown %
     - dir: server/target/classes
       file: com/alibaba/cobar/config/loader/xml/XMLRuleLoader.class
       sourceDir: server/src/main/config
