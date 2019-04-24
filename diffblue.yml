@@ -23,6 +23,7 @@ cbmcArguments:
     - java.lang.CloneNotSupportedException
     - com.alibaba.cobar.config.util.ConfigException
     - java.lang.InterruptedException  
+  java-stub-specified-exceptions-file: 'dependency-exceptions.json'
 phases:
 -
 #0 Pretty tests. If timeout then go to #3
