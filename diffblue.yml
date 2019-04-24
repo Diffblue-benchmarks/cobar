@@ -1,6 +1,6 @@
 # This file has been automatically pushed to all dashboard benchmarks (except for Java Demo).
 # All changes made to this file should be propagated to all dashboard benchmarks. Do not change this file individually!  
-buildCmd: cd server;	mvn -e -X -Dmaven.test.skip=true compile
+buildCmd: mvn -e -X -Dmaven.test.skip=true compile
 testCmd:	true
 skipVerification: true
 exceptionJson: true
@@ -24,6 +24,187 @@ cbmcArguments:
     - com.alibaba.cobar.config.util.ConfigException
     - java.lang.InterruptedException  
   java-stub-specified-exceptions-file: 'dependency-exceptions.json'
+units:
+  # Target Coverage: Unknown %
+  - target:
+    - dir: server/target/classes
+      file: com/alibaba/cobar/config/util/ReflectionProvider.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/ReflectionProvider.java
+    # Child of ReflectionProvider.class
+    # Child Coverage: Unknown %
+    - dir: server/target/classes
+      file: com/alibaba/cobar/config/util/ObjectAccessException.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/ObjectAccessException.java
+    # Child of ReflectionProvider.class
+    # Child Coverage: Unknown %
+    - dir: server/target/generated-classes/jacoco
+      file: com/alibaba/cobar/config/util/ObjectAccessException.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/ObjectAccessException.java
+    # Child of ReflectionProvider.class
+    # Child Coverage: Unknown %
+    - dir: server/target/classes
+      file: com/alibaba/cobar/config/util/JVMInfo.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/JVMInfo.java
+    # Child of ReflectionProvider.class
+    # Child Coverage: Unknown %
+    - dir: server/target/generated-classes/jacoco
+      file: com/alibaba/cobar/config/util/JVMInfo.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/JVMInfo.java
+    # Child of ReflectionProvider.class
+    # Child Coverage: Unknown %
+    - dir: server/target/classes
+      file: com/alibaba/cobar/config/util/FieldDictionary.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/FieldDictionary.java
+    # Child of ReflectionProvider.class
+    # Child Coverage: Unknown %
+    - dir: server/target/generated-classes/jacoco
+      file: com/alibaba/cobar/config/util/FieldDictionary.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/FieldDictionary.java
+    # Child of ReflectionProvider.class
+    # Child Coverage: Unknown %
+    - dir: server/target/generated-classes/jacoco
+      file: com/alibaba/cobar/config/util/ReflectionProvider.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/ReflectionProvider.java
+    # Child of ReflectionProvider.class
+    # Child Coverage: Unknown %
+    - dir: server/target/classes
+      file: com/alibaba/cobar/config/util/Visitor.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/Visitor.java
+    # Child of ReflectionProvider.class
+    # Child Coverage: Unknown %
+    - dir: server/target/generated-classes/jacoco
+      file: com/alibaba/cobar/config/util/Visitor.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/Visitor.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: server/target/generated-classes/jacoco
+      file: com/alibaba/cobar/config/util/ReflectionProvider.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/ReflectionProvider.java
+    # Child of ReflectionProvider.class
+    # Child Coverage: Unknown %
+    - dir: server/target/classes
+      file: com/alibaba/cobar/config/util/ReflectionProvider.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/ReflectionProvider.java
+   # Target Coverage: Unknown %
+  - target:
+    - dir: server/target/classes
+      file: com/alibaba/cobar/config/loader/xml/XMLRuleLoader.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/loader/xml/XMLRuleLoader.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/classes
+      file: com/alibaba/cobar/config/model/rule/RuleAlgorithm.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/model/rule/RuleAlgorithm.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/generated-classes/jacoco
+      file: com/alibaba/cobar/config/model/rule/RuleAlgorithm.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/model/rule/RuleAlgorithm.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/classes
+      file: com/alibaba/cobar/util/SplitUtil.class
+      sourceDir: server/src/main/server
+      sourceFile: com/alibaba/cobar/util/SplitUtil.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/generated-classes/jacoco
+      file: com/alibaba/cobar/util/SplitUtil.class
+      sourceDir: server/src/main/server
+      sourceFile: com/alibaba/cobar/util/SplitUtil.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/classes
+      file: com/alibaba/cobar/config/util/ConfigUtil.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/ConfigUtil.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/generated-classes/jacoco
+      file: com/alibaba/cobar/config/util/ConfigUtil.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/ConfigUtil.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/classes
+      file: com/alibaba/cobar/config/model/rule/TableRuleConfig.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/model/rule/TableRuleConfig.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/generated-classes/jacoco
+      file: com/alibaba/cobar/config/model/rule/TableRuleConfig.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/model/rule/TableRuleConfig.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/classes
+      file: com/alibaba/cobar/config/util/ConfigException.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/ConfigException.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/generated-classes/jacoco
+      file: com/alibaba/cobar/config/util/ConfigException.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/ConfigException.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/classes
+      file: com/alibaba/cobar/config/model/rule/RuleConfig.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/model/rule/RuleConfig.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/generated-classes/jacoco
+      file: com/alibaba/cobar/config/model/rule/RuleConfig.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/model/rule/RuleConfig.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/classes
+      file: com/alibaba/cobar/config/util/ParameterMapping.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/ParameterMapping.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/generated-classes/jacoco
+      file: com/alibaba/cobar/config/util/ParameterMapping.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/util/ParameterMapping.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/generated-classes/jacoco
+      file: com/alibaba/cobar/config/loader/xml/XMLRuleLoader.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/loader/xml/XMLRuleLoader.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: server/target/generated-classes/jacoco
+      file: com/alibaba/cobar/config/loader/xml/XMLRuleLoader.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/loader/xml/XMLRuleLoader.java
+    # Child of XMLRuleLoader.class
+    # Child Coverage: Unknown %
+    - dir: server/target/classes
+      file: com/alibaba/cobar/config/loader/xml/XMLRuleLoader.class
+      sourceDir: server/src/main/config
+      sourceFile: com/alibaba/cobar/config/loader/xml/XMLRuleLoader.java
 phases:
 -
 #0 Pretty tests. If timeout then go to #3
