@@ -134,66 +134,37 @@ phases:
 units:
   # Target Coverage: Unknown %
   - target:
-    - dir: server/target/classes
-      file: com/alibaba/cobar/config/util/ReflectionProvider.class
-      sourceDir: server/src/main/config
-      sourceFile: com/alibaba/cobar/config/util/ReflectionProvider.java
-    # Child of ReflectionProvider.class
+    - dir: manager/target/classes
+      file: com/alibaba/cobar/manager/dao/xml/ClusterDAOImple.class
+      sourceDir: manager/src/main/java
+      sourceFile: com/alibaba/cobar/manager/dao/xml/ClusterDAOImple.java
+    # Child of ClusterDAOImple.class
     # Child Coverage: Unknown %
-    - dir: server/target/classes
-      file: com/alibaba/cobar/config/util/ObjectAccessException.class
-      sourceDir: server/src/main/config
-      sourceFile: com/alibaba/cobar/config/util/ObjectAccessException.java
-    # Child of ReflectionProvider.class
+    - dir: manager/target/classes
+      file: com/alibaba/cobar/manager/dataobject/xml/ClusterDO.class
+      sourceDir: manager/src/main/java
+      sourceFile: com/alibaba/cobar/manager/dataobject/xml/ClusterDO.java
+    # Child of ClusterDAOImple.class
     # Child Coverage: Unknown %
-    - dir: server/target/classes
-      file: com/alibaba/cobar/config/util/JVMInfo.class
-      sourceDir: server/src/main/config
-      sourceFile: com/alibaba/cobar/config/util/JVMInfo.java
-    # Child of ReflectionProvider.class
+    - dir: manager/target/classes
+      file: com/alibaba/cobar/manager/dao/xml/AbstractDAOImple.class
+      sourceDir: manager/src/main/java
+      sourceFile: com/alibaba/cobar/manager/dao/xml/AbstractDAOImple.java
+    # Child of ClusterDAOImple.class
     # Child Coverage: Unknown %
-    - dir: server/target/classes
-      file: com/alibaba/cobar/config/util/FieldDictionary.class
-      sourceDir: server/src/main/config
-      sourceFile: com/alibaba/cobar/config/util/FieldDictionary.java
-    # Child of ReflectionProvider.class
+    - dir: manager/target/classes
+      file: com/alibaba/cobar/manager/util/ConstantDefine.class
+      sourceDir: manager/src/main/java
+      sourceFile: com/alibaba/cobar/manager/util/ConstantDefine.java
+    # Child of ClusterDAOImple.class
     # Child Coverage: Unknown %
-    - dir: server/target/classes
-      file: com/alibaba/cobar/config/util/Visitor.class
-      sourceDir: server/src/main/config
-      sourceFile: com/alibaba/cobar/config/util/Visitor.java
-    # Child of ReflectionProvider.class
+    - dir: manager/target/classes
+      file: com/alibaba/cobar/manager/dao/xml/XMLFileLoader.class
+      sourceDir: manager/src/main/java
+      sourceFile: com/alibaba/cobar/manager/dao/xml/XMLFileLoader.java
+    # Child of ClusterDAOImple.class
     # Child Coverage: Unknown %
-    - dir: server/target/classes
-      file: com/alibaba/cobar/config/loader/xml/XMLRuleLoader.class
-      sourceDir: server/src/main/config
-      sourceFile: com/alibaba/cobar/config/loader/xml/XMLRuleLoader.java
-    # Child of XMLRuleLoader.class
-    # Child Coverage: Unknown %
-    - dir: server/target/classes
-      file: com/alibaba/cobar/config/model/rule/RuleAlgorithm.class
-      sourceDir: server/src/main/config
-      sourceFile: com/alibaba/cobar/config/model/rule/RuleAlgorithm.java
-    # Child of XMLRuleLoader.class
-    # Child Coverage: Unknown %
-    - dir: server/target/classes
-      file: com/alibaba/cobar/util/SplitUtil.class
-      sourceDir: server/src/main/server
-      sourceFile: com/alibaba/cobar/util/SplitUtil.java
-    # Child of XMLRuleLoader.class
-    # Child Coverage: Unknown %
-    - dir: server/target/classes
-      file: com/alibaba/cobar/config/util/ConfigUtil.class
-      sourceDir: server/src/main/config
-      sourceFile: com/alibaba/cobar/config/util/ConfigUtil.java
-    # Child Coverage: Unknown %
-    - dir: server/target/classes
-      file: com/alibaba/cobar/config/util/ConfigException.class
-      sourceDir: server/src/main/config
-      sourceFile: com/alibaba/cobar/config/util/ConfigException.java
-    # Child of XMLRuleLoader.class
-    # Child Coverage: Unknown %
-    - dir: server/target/classes
-      file: com/alibaba/cobar/config/model/rule/RuleConfig.class
-      sourceDir: server/src/main/config
-      sourceFile: com/alibaba/cobar/config/model/rule/RuleConfig.java
+    - dir: manager/target/classes
+      file: com/alibaba/cobar/manager/dao/ClusterDAO.class
+      sourceDir: manager/src/main/java
+      sourceFile: com/alibaba/cobar/manager/dao/ClusterDAO.java
