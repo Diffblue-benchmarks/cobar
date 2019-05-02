@@ -6,12 +6,13 @@ skipVerification: true
 exceptionJson: true
 cbmcArguments:
   java-max-vla-length: 100000
-  java-load-class: 
+  java-stub-specified-exceptions-file: 'dependency-exceptions.json'
+  java-load-class:
     - java.util.EmptyStackException
-    - org.springframework.beans.factory.support.BeanDefinitionValidationException
-    - javax.xml.parsers.ParserConfigurationException
-    - org.apache.velocity.exception.MethodInvocationException
+    - javax.mail.internet.AddressException
+    - javax.portlet.ValidatorException
     - javax.resource.spi.UnavailableException
+    - javax.transaction.xa.XAException
     - commonj.work.WorkException
     - org.quartz.JobExecutionException
     - org.jruby.exceptions.JumpException
@@ -19,41 +20,34 @@ cbmcArguments:
     - org.springframework.validation.BindException
     - org.omg.CORBA.SystemException
     - java.lang.InterruptedException
-    - javax.jdo.JDOException
-    - org.aspectj.bridge.AbortException
-    - java.lang.SecurityException
+    - org.springframework.web.servlet.mvc.multiaction.NoSuchRequestHandlingMethodException
+    - org.apache.tools.ant.BuildException
     - org.springframework.jdbc.CannotGetJdbcConnectionException
     - java.lang.Throwable
     - javax.ejb.EJBException
     - org.springframework.beans.factory.BeanCreationException
     - java.io.StreamCorruptedException
-    - javax.portlet.ValidatorException
+    - org.apache.velocity.exception.MethodInvocationException
     - javax.mail.MessagingException
     - java.sql.SQLFeatureNotSupportedException
     - org.apache.oro.text.regex.MalformedPatternException
     - javax.transaction.SystemException
-    - org.hibernate.cache.CacheException
-    - javax.persistence.PersistenceException
     - java.io.UnsupportedEncodingException
     - javax.resource.spi.work.WorkException
     - java.text.ParseException
-    - org.apache.velocity.runtime.parser.ParseException
+    - org.springframework.transaction.TransactionTimedOutException
     - org.springframework.web.multipart.MultipartException
     - org.springframework.dao.DataAccessException
     - javax.servlet.jsp.JspException
-    - org.springframework.beans.factory.NoSuchBeanDefinitionException
-    - java.lang.IllegalAccessException
+    - org.springframework.dao.IncorrectResultSizeDataAccessException
     - org.springframework.remoting.RemoteLookupFailureException
     - org.springframework.context.NoSuchMessageException
-    - org.springframework.dao.IncorrectResultSizeDataAccessException
+    - java.lang.IllegalAccessException
     - org.springframework.aop.framework.adapter.UnknownAdviceTypeException
     - com.lowagie.text.DocumentException
     - org.springframework.jca.cci.CannotGetCciConnectionException
-    - java.lang.RuntimeException
     - javax.xml.transform.TransformerConfigurationException
-    - org.apache.velocity.exception.ParseErrorException
-    - java.net.UnknownHostException
-    - org.jacoco.agent.rt.internal_28bab1d.asm.ClassTooLargeException
+    - org.aspectj.bridge.AbortException
     - java.lang.reflect.InvocationTargetException
     - javax.resource.ResourceException
     - org.springframework.dao.DataRetrievalFailureException
@@ -61,30 +55,27 @@ cbmcArguments:
     - org.xmlpull.v1.XmlPullParserException
     - org.springframework.jmx.export.notification.UnableToSendNotificationException
     - org.springframework.ejb.access.EjbAccessException
-    - org.junit.internal.ArrayComparisonFailure
     - org.apache.oro.text.MalformedCachePatternException
     - java.util.NoSuchElementException
     - javax.management.InstanceNotFoundException
     - org.springframework.transaction.TransactionException
-    - java.lang.Exception
+    - java.lang.NoSuchFieldException
     - java.sql.SQLException
     - javax.management.ReflectionException
-    - org.junit.runners.model.InitializationError
     - javax.naming.NamingException
     - javax.management.MalformedObjectNameException
     - org.springframework.jmx.MBeanServerNotFoundException
     - javax.ejb.CreateException
     - javax.portlet.WindowStateException
-    - org.jacoco.agent.rt.internal_28bab1d.asm.MethodTooLargeException
-    - org.apache.log4j.lf5.viewer.LogTableColumnFormatException
     - javax.transaction.NotSupportedException
     - java.net.URISyntaxException
     - org.springframework.aop.framework.AopConfigException
     - org.springframework.context.ApplicationContextException
-    - java.lang.LinkageError
-    - org.hibernate.HibernateException
-    - org.apache.velocity.exception.TemplateInitException
+    - com.mysql.jdbc.AssertionFailedException
     - java.net.SocketException
+    - java.lang.InstantiationException
+    - org.apache.velocity.exception.TemplateInitException
+    - org.springframework.beans.factory.support.BeanDefinitionValidationException
     - java.lang.IndexOutOfBoundsException
     - org.quartz.SchedulerException
     - javax.management.modelmbean.InvalidTargetObjectTypeException
@@ -92,33 +83,33 @@ cbmcArguments:
     - javax.transaction.HeuristicRollbackException
     - org.apache.velocity.exception.ResourceNotFoundException
     - java.lang.ArrayIndexOutOfBoundsException
-    - java.beans.IntrospectionException
-    - javax.management.NotCompliantMBeanException
-    - javax.portlet.ReadOnlyException
-    - javax.transaction.xa.XAException
+    - java.lang.ClassCastException
+    - com.alibaba.cobar.config.util.ConfigException
+    - java.lang.IllegalStateException
     - org.springframework.dao.InvalidDataAccessApiUsageException
     - net.sf.ehcache.CacheException
-    - org.junit.runner.notification.StoppedByUserException
     - org.apache.velocity.exception.VelocityException
     - org.springframework.beans.factory.CannotLoadBeanClassException
     - org.springframework.beans.factory.BeanDefinitionStoreException
-    - java.lang.InstantiationException
-    - org.springframework.dao.TypeMismatchDataAccessException
+    - java.beans.IntrospectionException
+    - org.springframework.beans.factory.NoSuchBeanDefinitionException
+    - java.sql.SQLNonTransientException
+    - java.lang.Exception
     - java.lang.NumberFormatException
     - java.io.IOException
-    - javax.mail.internet.AddressException
+    - javax.xml.parsers.ParserConfigurationException
     - org.xml.sax.SAXException
-    - oracle.toplink.exceptions.TopLinkException
-    - org.apache.tools.ant.BuildException
+    - java.lang.SecurityException
     - org.springframework.core.ConstantException
     - org.springframework.mail.MailException
     - javax.xml.rpc.ServiceException
     - javax.management.AttributeNotFoundException
     - javax.naming.NameNotFoundException
+    - org.apache.velocity.exception.ParseErrorException
     - org.springframework.beans.BeanInstantiationException
     - javax.servlet.ServletException
     - javax.management.RuntimeOperationsException
-    - com.mysql.jdbc.AssertionFailedException
+    - java.lang.LinkageError
     - javax.mail.NoSuchProviderException
     - org.springframework.scheduling.SchedulingException
     - javax.transaction.RollbackException
@@ -126,50 +117,40 @@ cbmcArguments:
     - javax.management.InvalidAttributeValueException
     - java.lang.ArithmeticException
     - org.xmlpull.v1.builder.XmlBuilderException
-    - javax.jms.JMSException
     - java.rmi.RemoteException
     - org.springframework.test.context.junit4.SpringMethodRoadie$FailedBefore
-    - java.util.ConcurrentModificationException
+    - javax.portlet.ReadOnlyException
     - org.apache.velocity.exception.MacroOverflowException
-    - java.lang.IllegalStateException
+    - java.util.ConcurrentModificationException
     - java.net.MalformedURLException
     - org.apache.oro.text.perl.MalformedPerl5PatternException
-    - org.springframework.scripting.ScriptCompilationException
-    - org.apache.log4j.config.PropertySetterException
-    - javax.servlet.jsp.el.ELException
+    - org.springframework.beans.factory.UnsatisfiedDependencyException
     - java.sql.BatchUpdateException
     - java.lang.ClassNotFoundException
     - java.sql.SQLClientInfoException
     - org.w3c.dom.DOMException
     - javax.portlet.PortletSecurityException
-    - javax.xml.parsers.FactoryConfigurationError
     - javax.portlet.PortletModeException
     - org.xml.sax.SAXNotSupportedException
-    - org.junit.runner.manipulation.NoTestsRemainException
-    - javax.management.InstanceAlreadyExistsException
-    - org.apache.log4j.lf5.LogLevelFormatException
     - javax.management.MBeanException
-    - org.springframework.jms.JmsException
+    - org.springframework.dao.TypeMismatchDataAccessException
     - java.lang.NoSuchMethodException
     - java.util.concurrent.CancellationException
     - java.lang.UnsupportedOperationException
-    - org.springframework.dao.DataAccessResourceFailureException
     - javax.transaction.InvalidTransactionException
     - org.springframework.beans.factory.BeanInitializationException
     - freemarker.template.TemplateException
     - org.springframework.jmx.export.MBeanExportException
     - org.springframework.util.AutoPopulatingList$ElementInstantiationException
-    - org.apache.velocity.util.introspection.MethodMap$AmbiguousException
+    - javax.servlet.jsp.el.ELException
     - org.springframework.web.bind.ServletRequestBindingException
-    - org.junit.experimental.theories.PotentialAssignment$CouldNotGenerateValueException
     - java.rmi.NoSuchObjectException
     - org.springframework.transaction.TransactionSystemException
     - org.springframework.jdbc.JdbcUpdateAffectedIncorrectNumberOfRowsException
-    - org.junit.internal.runners.FailedBefore
     - org.springframework.jdbc.SQLWarningException
     - java.security.cert.CertificateException
     - java.io.EOFException
-    - org.springframework.beans.factory.UnsatisfiedDependencyException
+    - org.springframework.scripting.ScriptCompilationException
     - org.springframework.jdbc.support.MetaDataAccessException
     - java.lang.CloneNotSupportedException
     - org.springframework.mail.MailParseException
@@ -178,15 +159,14 @@ cbmcArguments:
     - net.sf.json.JSONException
     - java.io.ObjectStreamException
     - org.springframework.beans.TypeMismatchException
-    - org.springframework.jdbc.datasource.lookup.DataSourceLookupFailureException
+    - org.apache.commons.logging.LogConfigurationException
     - javax.management.JMException
     - java.util.regex.PatternSyntaxException
     - javax.resource.spi.ResourceAdapterInternalException
-    - java.lang.ClassCastException
-    - org.junit.experimental.max.CouldNotReadCoreException
     - bsh.EvalError
     - java.lang.ExceptionInInitializerError
     - javax.xml.transform.TransformerException
+    - java.sql.SQLSyntaxErrorException
     - net.sf.jasperreports.engine.JRException
     - org.junit.internal.runners.InitializationError
     - org.springframework.transaction.NoTransactionException
@@ -194,25 +174,19 @@ cbmcArguments:
     - javax.el.ELException
     - javax.faces.el.EvaluationException
     - org.springframework.beans.FatalBeanException
-    - javax.management.ListenerNotFoundException
     - org.quartz.SchedulerConfigException
-    - java.lang.NoSuchFieldException
-    - org.springframework.jms.support.converter.MessageConversionException
     - java.lang.instrument.IllegalClassFormatException
-    - org.jacoco.agent.rt.internal_28bab1d.core.data.IncompatibleExecDataVersionException
     - org.xml.sax.SAXNotRecognizedException
     - javax.portlet.PortletException
-    - org.springframework.transaction.TransactionTimedOutException
+    - org.apache.velocity.runtime.parser.ParseException
     - org.springframework.jmx.export.metadata.InvalidMetadataException
     - org.springframework.transaction.InvalidIsolationLevelException
     - java.lang.AssertionError
-    - org.springframework.web.servlet.mvc.multiaction.NoSuchRequestHandlingMethodException
     - java.security.NoSuchAlgorithmException
     - org.apache.tiles.TilesException
+    - org.apache.velocity.util.introspection.MethodMap$AmbiguousException
     - org.springframework.beans.BeansException
-    - org.apache.commons.logging.LogConfigurationException
-    - javax.management.MBeanRegistrationException
-  java-stub-specified-exceptions-file: 'dependency-exceptions.json'
+    - org.springframework.jdbc.datasource.lookup.DataSourceLookupFailureException
 phases:
 -
 #0 Pretty tests. If timeout then go to #3
