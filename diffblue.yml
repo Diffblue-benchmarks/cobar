@@ -298,36 +298,12 @@ units:
   # Target Coverage: Unknown %
   - target:
     - dir: manager/target/classes
-      file: com/alibaba/cobar/manager/dao/xml/ClusterDAOImple.class
-      sourceDir: manager/src/main/java
-      sourceFile: com/alibaba/cobar/manager/dao/xml/ClusterDAOImple.java
-    # Child of ClusterDAOImple.class
-    # Child Coverage: Unknown %
-    - dir: manager/target/classes
-      file: com/alibaba/cobar/manager/dataobject/xml/ClusterDO.class
-      sourceDir: manager/src/main/java
-      sourceFile: com/alibaba/cobar/manager/dataobject/xml/ClusterDO.java
-    # Child of ClusterDAOImple.class
-    # Child Coverage: Unknown %
-    - dir: manager/target/classes
       file: com/alibaba/cobar/manager/dao/xml/AbstractDAOImple.class
       sourceDir: manager/src/main/java
       sourceFile: com/alibaba/cobar/manager/dao/xml/AbstractDAOImple.java
-    # Child of ClusterDAOImple.class
-    # Child Coverage: Unknown %
-    - dir: manager/target/classes
-      file: com/alibaba/cobar/manager/util/ConstantDefine.class
-      sourceDir: manager/src/main/java
-      sourceFile: com/alibaba/cobar/manager/util/ConstantDefine.java
-    # Child of ClusterDAOImple.class
+    # Child of AbstractDAOImple.class
     # Child Coverage: Unknown %
     - dir: manager/target/classes
       file: com/alibaba/cobar/manager/dao/xml/XMLFileLoader.class
       sourceDir: manager/src/main/java
       sourceFile: com/alibaba/cobar/manager/dao/xml/XMLFileLoader.java
-    # Child of ClusterDAOImple.class
-    # Child Coverage: Unknown %
-    - dir: manager/target/classes
-      file: com/alibaba/cobar/manager/dao/ClusterDAO.class
-      sourceDir: manager/src/main/java
-      sourceFile: com/alibaba/cobar/manager/dao/ClusterDAO.java
