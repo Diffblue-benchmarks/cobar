@@ -5,6 +5,7 @@ testCmd:	true
 skipVerification: true
 exceptionJson: true
 cbmcArguments:
+  smart-harness: simplest-constructor-and-nondet
   java-max-vla-length: 100000
   java-stub-specified-exceptions-file: 'dependency-exceptions.json'
   java-load-class:
