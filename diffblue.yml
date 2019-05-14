@@ -209,7 +209,7 @@ phases:
  cbmcArguments:
    classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
    depth: 1500
-   java-assume-inputs-non-null: false
+   java-assume-inputs-non-null: true
    max-nondet-array-length: 20
    max-nondet-string-length: 50
    string-printable: true
@@ -223,7 +223,7 @@ phases:
  cbmcArguments:
    classpath: '/tools/cbmc/models.jar:.'
    depth: 3000
-   java-assume-inputs-non-null: false
+   java-assume-inputs-non-null: true
    max-nondet-array-length: 30
    max-nondet-string-length: 100
    string-printable: false
@@ -235,7 +235,7 @@ phases:
  cbmcArguments:
    classpath: '/tools/cbmc/models.jar:.'
    depth: false
-   java-assume-inputs-non-null: false
+   java-assume-inputs-non-null: true
    max-nondet-array-length: 30
    max-nondet-string-length: 100
    paths: 'fifo'
@@ -261,7 +261,7 @@ phases:
  cbmcArguments:
    classpath: '/tools/cbmc/models.jar:.'
    depth: 3000
-   java-assume-inputs-non-null: false
+   java-assume-inputs-non-null: true
    load-containing-class-only: true
    max-nondet-array-length: 30
    max-nondet-string-length: 100
@@ -287,7 +287,7 @@ phases:
  cbmcArguments:
    classpath: '/tools/cbmc/models.jar:.'
    depth: 3000
-   java-assume-inputs-non-null: false
+   java-assume-inputs-non-null: true
    max-nondet-array-length: 30
    max-nondet-string-length: 100
    single-function-only: true

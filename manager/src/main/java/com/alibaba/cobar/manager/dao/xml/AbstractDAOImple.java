@@ -47,7 +47,7 @@ public abstract class AbstractDAOImple {
     }
 
     //flag means if it is going to write END_TAG
-    protected boolean writePrefix(boolean flag) {
+    public boolean writePrefix(boolean flag) throws IOException {
         int count = xsl.getDepth();
         if (flag) {
             count--;
@@ -57,13 +57,13 @@ public abstract class AbstractDAOImple {
                 xsl.text("  ");
             } catch (IOException e) {
                 logger.error(e.getMessage(), e);
-                return false;
+                throw new IOException("Unable to write prefix");
             }
         }
         return true;
     }
 
-    protected boolean writeProperty(String name, String value) {
+    protected boolean writeProperty(String name, String value) throws IOException {
         try {
             writePrefix(false);
             xsl.startTag(null, "property");
@@ -72,15 +72,14 @@ public abstract class AbstractDAOImple {
             xsl.endTag(null, "property");
             xsl.text("\n");
         } catch (IOException e) {
-            logger.error(e.getMessage(), e);
-            return false;
+                throw new IOException("Unable to writeProperty");
         }
         return true;
     }
 
     /**
      * copy file from xmlpath to newpath
-     * 
+     *
      * @param xmlpath : the file to copy
      * @param newpath : the file copy to
      * @return true for copy success, or false for fail.
