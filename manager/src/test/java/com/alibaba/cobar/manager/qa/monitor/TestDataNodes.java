@@ -21,19 +21,20 @@ import java.sql.SQLException;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
 import com.alibaba.cobar.manager.dataobject.cobarnode.DataNodesStatus;
 import com.alibaba.cobar.manager.qa.util.TestUtils;
+import org.junit.rules.Timeout;
 
 public class TestDataNodes extends TestCobarAdapter {
     private Connection managerConnection = null;
     private Connection dmlConnection = null;
     private static final Logger logger = Logger.getLogger(TestDataNodes.class);
     List<DataNodesStatus> dataNodeStatusList = null;
+
+    @Rule
+    public Timeout timeout = new Timeout(2000);
 
     @Override
     @Before

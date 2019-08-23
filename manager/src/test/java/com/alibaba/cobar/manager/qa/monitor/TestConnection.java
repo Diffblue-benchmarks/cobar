@@ -23,14 +23,19 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
 
 import com.alibaba.cobar.manager.dataobject.cobarnode.ConnectionStatus;
+import org.junit.rules.Timeout;
 
 public class TestConnection extends TestCobarAdapter {
     private static final Logger logger = Logger.getLogger(TestConnection.class);
     List<Connection> connList = null;
     int connNum = 0;
+
+    @Rule
+    public Timeout timeout = new Timeout(2000);
 
     @Override
     @Before

@@ -21,13 +21,10 @@ import java.sql.SQLException;
 import java.util.List;
 
 import org.apache.log4j.Logger;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.*;
 
 import com.alibaba.cobar.manager.dataobject.cobarnode.CommandStatus;
+import org.junit.rules.Timeout;
 
 public class TestCommands extends TestCobarAdapter {
     private Connection dmlConnection = null;
@@ -42,6 +39,9 @@ public class TestCommands extends TestCobarAdapter {
     private long killNum = 0;
     private long quitNum = 0;
     private long otherNum = 0;
+
+    @Rule
+    public Timeout timeout = new Timeout(2000);
 
     @Override
     @Before
