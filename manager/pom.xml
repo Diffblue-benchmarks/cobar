@@ -21,7 +21,7 @@
   <artifactId>cobar-manager</artifactId>
   <version>1.0.5</version>
   <name>${project.artifactId}</name>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <description>The project of cobar-manager</description>
   <url>http://code.alibabatech.com/wiki/display/Cobar</url>
 
@@ -178,6 +178,22 @@
       </testResource>
     </testResources>
     <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.2.1</version>
+        <configuration>
+          <outputFile>target/${project.artifactId}-${project.version}-with-dependencies.jar</outputFile>
+        </configuration>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
