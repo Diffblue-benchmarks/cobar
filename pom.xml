@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.alibaba.cobar</groupId>
+  <artifactId>cobar-wrapper</artifactId>
+  <version>HEAD-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.alibaba.cobar</groupId>
+      <artifactId>cobar-driver</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba.cobar</groupId>
+      <artifactId>cobar-manager</artifactId>
+      <version>1.0.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba.cobar</groupId>
+      <artifactId>cobar-server</artifactId>
+      <version>1.2.8-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+
+  <modules>
+    <module>parent</module>
+    <module>driver</module>
+    <module>manager</module>
+    <module>server</module>
+  </modules>
+
+</project>

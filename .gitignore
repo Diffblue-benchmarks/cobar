@@ -14,3 +14,5 @@
 cobar-server.iml
 cobar-manager.iml
 cobar-driver.iml
+target/
+**/target/
